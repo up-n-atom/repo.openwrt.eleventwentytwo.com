@@ -1,12 +1,24 @@
 Package: kmod-bnx2x
+Version: 5.10.138-1
+Depends: kernel (=5.10.138-1-789565457d2f287975d7d943ddbe4eeb), bnx2x-firmware, kmod-lib-crc32c, kmod-mdio, kmod-ptp, kmod-lib-zlib-inflate
+License: GPL-2.0
+Section: kernel
+Architecture: x86_64
+Installed-Size: 326617
+Filename: staging_dir/repo/kmod-bnx2x_5.10.138-1_x86_64.ipk
+Size: 324027
+SHA256sum: 628a6d0b356bd1fe5e9ae99e7d536413aa6ec1c67533775cff690ecefe9edcda
+Description:  QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver
+
+Package: kmod-bnx2x
 Version: 5.4.188-1
 Depends: kernel (=5.4.188-1-8dc051897f84226a7cfb0dec4f2aeaef), bnx2x-firmware, kmod-lib-crc32c, kmod-mdio, kmod-ptp, kmod-lib-zlib-inflate
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 303825
-Filename: kmod-bnx2x_5.4.188-1_x86_64.ipk
-Size: 302143
-SHA256sum: 899ff205804f1d2a053a0ca041e1990040fd7ddb4efdbbb2fd8febf6ac84d334
+Installed-Size: 303817
+Filename: staging_dir/repo/kmod-bnx2x_5.4.188-1_x86_64.ipk
+Size: 302126
+SHA256sum: b933ca3dbe441f9ca09e35874d5fc95d60df9b2a6d95f224ad7209afc2a5e497
 Description:  QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver
 
